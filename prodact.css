@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+  background-color: white;
+}
+.starr img {
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+.continer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+.table {
+  margin-left: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.div-f {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.div-f h1 {
+  font-size: 70px;
+  padding-top: 40px;
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+}
+
+.div-f h3 {
+  font-size: 40px;
+  padding-top: -30px;
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+}
+
+.div-f p {
+  font-size: 20px;
+  padding-top: -30px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+}
+.lista {
+  margin-right: 130px;
+  float: right;
+}
+.listab {
+  float: left;
+}
+.box {
+  margin: 20px;
+  padding: 45px;
+
+  width: 60%;
+  height: 80%;
+  display: grid;
+  border-radius: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.image {
+  background-image: url(phone-black.jpg);
+  width: 100%;
+  height: 100%;
+
+  background: no-repeat;
+}
+
+.image {
+  display: grid;
+
+  grid-template-areas:
+    "myhed myhed myhed"
+    "myfut  mybac  mykil";
+  align-content: center;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.child1 {
+  grid-area: myhed;
+  /* margin: 20px; */
+  display: block;
+}
+
+.child2 {
+  grid-area: myfut;
+  text-align: end;
+}
+
+.child3 {
+  grid-area: mybac;
+  text-align: center;
+}
+
+.child4 {
+  grid-area: mykil;
+  text-align: left;
+}
+
+.headr {
+  padding-left: 50px;
+}
+.headr h1 {
+  size: 400px;
+  font-size: 30px;
+}
+.headr .ho {
+  padding-bottom: 10px;
+}
+
+.button a {
+  background-color: blue;
+  width: 20px;
+  display: inline;
+  font-size: 10px;
+  color: white;
+  border-radius: 7px;
+  padding: 10px 20px 10px 20px;
+}
+span {
+  font-size: 30px;
+}
+.button {
+  margin: 20px 0px 30px 0px;
+}
+p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+ul li {
+  margin-top: 20px;
+  margin-left: 15px;
+}
